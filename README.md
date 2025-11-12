@@ -2,4 +2,4 @@
 ## Проект
 Этот репозиторий является каркасом для будущего веб-приложения.
 ## Ссылки
-- [Публичная страница на GitHub Pages](https://nataxatochkacom.github.io/pr1/)
+- [Публичная страница на GitHub Pages](https://nataxatochkacom.github.io/my_project/)
