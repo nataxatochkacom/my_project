@@ -2,191 +2,204 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Магазин мебели</title>
+    <title class="title">Shop</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-            <section class="logo">
-                <img src="assets/icons/Search.png" alt="Иконка поиска по сайту">
-                <img src="assets/logo.png" alt="Иконка сайта">
-                <img src="assets/icons/Shopping--cart.png" alt="Иконка корзины">
-                <img src="assets/icons/User--avatar.png" alt="Иконка пользователя">
-            </section>
-        <section class="nav-bar">
-            <nav class="nav">
-                <a href="#PlantPots">Plan pots</a>
-                <a href="#Ceramics">Ceramics</a>
-                <a href="#Tables">Tables</a>
-                <a href="#Chairs">Chairs</a>
-                <a href="#Crockery">Crockery</a>
-                <a href="#Tableware">Tableware</a>
-                <a href="#Cultery">Cultery</a>
-            </nav>
-        </section>
-    </header>
+<header class="header">
+    <section class="header__logo">
+        <img class="header__icon header__icon--search" src="assets/icons/Search.png" alt="Иконка поиска по сайту">
+        <img class="header__logo-img" src="assets/logo.png" alt="Иконка сайта">
+        <img class="header__icon--cart" src="assets/icons/Shopping--cart.png" alt="Иконка корзины">
+        <img class="header__icon header__icon--user" src="assets/icons/User--avatar.png" alt="Иконка пользователя">
+    </section>
+    <section class="header__nav-bar">
+        <nav class="nav">
+            <a class="nav__link" href="#PlantPots">Plan pots</a>
+            <a class="nav__link" href="#Ceramics">Ceramics</a>
+            <a class="nav__link" href="#Tables">Tables</a>
+            <a class="nav__link" href="#Chairs">Chairs</a>
+            <a class="nav__link" href="#Crockery">Crockery</a>
+            <a class="nav__link" href="#Tableware">Tableware</a>
+            <a class="nav__link" href="#Cultery">Cultery</a>
+        </nav>
+    </section>
+</header>
+
 <main>
-    <section class="Furniture">
-        <table>
+    <section class="hero" id="PlantPots">
+        <table class="hero__table">
             <tr>
-                <td>
-                    <h1>The furniture brand for the future, with timeless designs</h1>
-                    <button>View collection</button>
-                    <p>A&nbsp;new era in&nbsp;eco friendly furniture with Avelon, the French luxury retail brand with nice fonts, tasteful colors and a&nbsp;beautiful way to&nbsp;display things digitally using modern web technologies.</p>
+                <td class="hero__cell hero__cell--content">
+                    <h1 class="hero__title">The furniture brand for the future, with timeless designs</h1>
+                    <button class="hero__button">View collection</button>
+                    <p class="hero__text">A&nbsp;new era in&nbsp;eco friendly furniture with Avelon, the French luxury retail brand with nice fonts, tasteful colors and a&nbsp;beautiful way to&nbsp;display things digitally using modern web technologies.</p>
                 </td>
-                <td>
-                    <img src="assets/img/Right%20Image.png" alt="">
+                <td class="hero__cell--image">
+                    <img class="hero__img" src="assets/img/Right%20Image.png" alt="">
                 </td>
             </tr>
         </table>
+    </section>
 
+    <section class="features" id="Ceramics">
+        <h2 class="features__title">What makes our brand different</h2>
+        <table class="features__table">
+            <tr>
+                <td class="features__item">
+                    <img class="features__icon" src="assets/icons/Delivery.png" alt="">
+                    <h3 class="features__item-title">Next day as standard</h3>
+                    <p class="features__item-text">Order before 3pm and get your order the next day as&nbsp;standard</p>
+                </td>
+                <td class="features__item">
+                    <img class="features__icon" src="assets/icons/Checkmark--outline.png" alt="">
+                    <h3 class="features__item-title">Made by true artisans</h3>
+                    <p class="features__item-text">Handmade craft ed&nbsp;goods made with real passion and craftmanship</p>
+                </td>
+                <td class="features__item">
+                    <img class="features__icon" src="assets/icons/Purchase.png" alt="">
+                    <h3 class="features__item-title">Unbeatable prices</h3>
+                    <p class="features__item-text">For our materials and quality you won&rsquo;t find bet ter prices anywhere</p>
+                </td>
+                <td class="features__item">
+                    <img class="features__icon" src="assets/icons/Sprout.png" alt="">
+                    <h3 class="features__item-title">Recycled packaging</h3>
+                    <p class="features__item-text">We&nbsp;use 100% recycled packaging to&nbsp;ensure our footprint is&nbsp;manageable</p>
+                </td>
+            </tr>
+        </table>
+    </section>
 
-    </section>
-    <section class="Different">
-        <h2>What makes our brand different</h2>
-        <table>
+    <section class="products" id="Tables">
+        <h2 class="products__title">New ceramics</h2>
+        <table class="products__table">
             <tr>
-            <td>
-                <img src="assets/icons/Delivery.png" alt="">
-                <h3>Next day as standard</h3>
-                <p>Order before 3pm and get your order the next day as&nbsp;standard</p>
-            </td>
-            <td>
-                <img src="assets/icons/Checkmark--outline.png" alt="">
-                <h3>Made by true artisans</h3>
-                <p>Handmade craft ed&nbsp;goods made with real passion and craftmanship</p>
-            </td>
-            <td>
-                <img src="assets/icons/Purchase.png" alt="">
-                <h3>Unbeatable prices</h3>
-                <p>For our materials and quality you won&rsquo;t find bet ter prices anywhere</p>
-            </td>
-            <td>
-                <img src="assets/icons/Sprout.png" alt="">
-                <h3>Recycled packaging</h3>
-                <p>We&nbsp;use 100% recycled packaging to&nbsp;ensure our footprint is&nbsp;manageable</p>
-            </td>
+                <td class="products__item">
+                    <img class="products__img" src="assets/img/Photo.png" alt="">
+                    <p class="products__name">The Dandy chair</p>
+                    <p class="products__price">£250</p>
+                </td>
+                <td class="products__item">
+                    <img class="products__img" src="assets/img/PhotoVases.png" alt="">
+                    <p class="products__name">Rustic Vase Set</p>
+                    <p class="products__price">£155</p>
+                </td>
+                <td class="products__item">
+                    <img class="products__img" src="assets/img/PhotoVase.png" alt="">
+                    <p class="products__name">The Silky Vase</p>
+                    <p class="products__price">£125</p>
+                </td>
+                <td class="products__item">
+                    <img class="products__img" src="assets/img/PhotoLamp.png" alt="">
+                    <p class="products__name">The Lucy Lamp</p>
+                    <p class="products__price">£399</p>
+                </td>
             </tr>
         </table>
+        <button class="products__button">View collection</button>
     </section>
-    <section class="Ceramics">
-        <h2>New ceramics</h2>
-        <table>
+
+    <section class="popular" id="Chairs">
+        <h2 class="popular__title">Our popular products</h2>
+        <table class="popular__table">
             <tr>
-            <td>
-                <img src="assets/img/Photo.png" alt="">
-                <p>The Dandy chair</p>
-                <p>£250</p>
-            </td>
-            <td>
-                <img src="assets/img/PhotoVases.png" alt="">
-                <p>Rustic Vase Set</p>
-                <p>£155</p>
-            </td>
-            <td>
-                <img src="assets/img/PhotoVase.png" alt="">
-                <p>The Silky Vase</p>
-                <p>£125</p>
-            </td>
-            <td>
-                <img src="assets/img/PhotoLamp.png" alt="">
-                <p>The Lucy Lamp</p>
-                <p>£399</p>
-            </td>
+                <td class="popular__item popular__item--large">
+                    <img class="popular__img-1" src="assets/img/Large.png" alt="">
+                    <p class="popular__name">The Poplar suede sofa</p>
+                    <p class="popular__price">£980</p>
+                </td>
+                <td class="popular__item">
+                    <img class="popular__img" src="assets/img/Photo.png" alt="">
+                    <p class="popular__name">The Dandy chair</p>
+                    <p class="popular__price">£250</p>
+                </td>
+                <td class="popular__item">
+                    <img class="popular__img" src="assets/img/PhotoChair.png" alt="">
+                    <p class="popular__name"> The Dandy chair</p>
+                    <p class="popular__price">£250</p>
+                </td>
             </tr>
         </table>
-        <button>View collection</button>
+        <button class="popular__button">View collection</button>
     </section>
-    <section class="PopularProducts">
-        <h2>Our popular products</h2>
-        <table>
+
+    <section class="newsletter" id="Crockery">
+        <div class="news">
+            <h2 class="newsletter__title">Join the club and get the benefits</h2>
+            <p class="newsletter__text">Sign up&nbsp;for our newsletter and receive exclusive offers on&nbsp;new ranges, sales, pop up&nbsp;stores and more</p>
+            <label class="newsletter__label">
+                <input class="newsletter__input" type="email" placeholder="your@email.com">
+            </label>
+            <button class="newsletter__button">Sign up</button>
+        </div>
+    </section>
+
+    <section class="about" id="Tableware">
+        <table class="about__table">
             <tr>
-            <td>
-                <img src="assets/img/Large.png" alt="">
-                <p>The Poplar suede sofa</p>
-                <p>£980</p>
-            </td>
-            <td>
-                <img src="assets/img/Photo.png" alt="">
-                <p>The Dandy chair</p>
-                <p>£250</p>
-            </td>
-            <td>
-                <img src="assets/img/PhotoChair.png" alt="">
-                <p>The Dandy chair</p>
-                <p>£250</p>
-            </td>
-            </tr>
-        </table>
-        <button>View collection</button>
-    </section>
-    <section class="Club">
-        <h2>Join the club and get the benefits</h2>
-        <p>Sign up&nbsp;for our newsletter and receive exclusive offers on&nbsp;new ranges, sales, pop up&nbsp;stores and more</p>
-        <label>
-            <input type="email" placeholder="your@email.com">
-        </label>
-        <button>Sign up</button>
-    </section>
-    <section class="Studio">
-        <table>
-            <tr>
-            <td>
-                <h3>From a&nbsp;studio in&nbsp;London to&nbsp;a&nbsp;global brand with over 400 outlets</h3>
-                <p>When we&nbsp;star ted Avion, the idea was simple. Make high quality furniture affordable and available for the mass market.</p>
-                <p>Handmade, and lovingly craft ed&nbsp;furniture and homeware is&nbsp;what we&nbsp;live, breathe and design so&nbsp;our Chelsea boutique become the hotbed for the London interior design community.</p>
-                <button>Get in touch</button>
-            </td>
-            <td>
-                <img src="assets/img/Image.png" alt="">
-            </td>
+                <td class="about__cell about__cell--content">
+                    <h3 class="about__title">From a&nbsp;studio in&nbsp;London to&nbsp;a&nbsp;global brand with over 400 outlets</h3>
+                    <p class="about__text">When we&nbsp;star ted Avion, the idea was simple. Make high quality furniture affordable and available for the mass market.</p>
+                    <p class="about__text">Handmade, and lovingly craft ed&nbsp;furniture and homeware is&nbsp;what we&nbsp;live, breathe and design so&nbsp;our Chelsea boutique become the hotbed for the London interior design community.</p>
+                    <button class="about__button">Get in touch</button>
+                </td>
+                <td class="about__cell about__cell--image">
+                    <img class="about__img" src="assets/img/Image.png" alt="">
+                </td>
             </tr>
         </table>
     </section>
 </main>
-<footer>
-    <section class="AnotherInfo">
-        <table>
+
+<footer class="footer" id="Cultery">
+    <section class="footer__info">
+        <table class="footer__table">
             <tr>
-            <td>
-                <h4>Menu</h4>
-                <a href="#">New arrivals</a><br>
-                <a href="#">Best sellers</a><br>
-                <a href="#">Recently viewed</a><br>
-                <a href="#">Popular this week</a><br>
-                <a href="#">All products</a>
-            </td>
-            <td>
-                <h4>Categories</h4>
-                <a href="#">Crockery</a><br>
-                <a href="#">Furniture</a><br>
-                <a href="#">Homeware</a><br>
-                <a href="#">Plant pots</a><br>
-                <a href="#">Chairs</a><br>
-                <a href="#">Crockery</a>
-            </td>
-            <td>
-                <h4>Our company</h4>
-                <a href="#">About us</a><br>
-                <a href="#">Vacancies</a><br>
-                <a href="#">Contact us</a><br>
-                <a href="#">Privacy</a><br>
-                <a href="#">Returns policy</a>
-            </td>
-            <td>
-                <h4>Join our mailing list</h4>
-                <label>
-                    <input type="email" placeholder="your@email.com">
-                </label>
-                <button>Sign up</button>
-            </td>
+                <td class="footer__column">
+                    <h4 class="footer__title">Menu</h4>
+                    <a class="footer__link" href="#">New arrivals</a><br>
+                    <a class="footer__link" href="#">Best sellers</a><br>
+                    <a class="footer__link" href="#">Recently viewed</a><br>
+                    <a class="footer__link" href="#">Popular this week</a><br>
+                    <a class="footer__link" href="#">All products</a>
+                </td>
+                <td class="footer__column">
+                    <h4 class="footer__title">Categories</h4>
+                    <a class="footer__link" href="#">Crockery</a><br>
+                    <a class="footer__link" href="#">Furniture</a><br>
+                    <a class="footer__link" href="#">Homeware</a><br>
+                    <a class="footer__link" href="#">Plant pots</a><br>
+                    <a class="footer__link" href="#">Chairs</a><br>
+                    <a class="footer__link" href="#">Crockery</a>
+                </td>
+                <td class="footer__column">
+                    <h4 class="footer__title">Our company</h4>
+                    <a class="footer__link" href="#">About us</a><br>
+                    <a class="footer__link" href="#">Vacancies</a><br>
+                    <a class="footer__link" href="#">Contact us</a><br>
+                    <a class="footer__link" href="#">Privacy</a><br>
+                    <a class="footer__link" href="#">Returns policy</a>
+                </td>
+                <td class="footer__column-1">
+                    <h4 class="footer__title">Join our mailing list</h4>
+                    <label class="footer__label">
+                        <input class="footer__input" type="email" placeholder="your@email.com">
+                    </label>
+                    <button class="footer__button">Sign up</button>
+                </td>
             </tr>
         </table>
     </section>
-    <section class="Another">
-        <p>Copyright 2022 Avion LTD</p>
-        <img src="assets/icons/Logo--linkedin.png" alt="">
-        <img src="assets/icons/Logo--skype.png" alt="">
-        <img src="assets/icons/Logo--pinterest.png" alt="">
+    <section class="footer__bottom">
+        <p class="footer__copyright">Copyright 2022 Avion LTD</p>
+        <div class="footer__social-icons">
+        <img class="footer__social" src="assets/icons/Logo--linkedin.png" alt="">
+        <img class="footer__social" src="assets/icons/Logo--skype.png" alt="">
+        <img class="footer__social" src="assets/icons/Logo--pinterest.png" alt="">
+        </div>
     </section>
 </footer>
 </body>
