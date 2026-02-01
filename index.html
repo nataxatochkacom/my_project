@@ -16,6 +16,11 @@
         <img class="header__icon--cart" src="assets/icons/Shopping--cart.png" alt="Иконка корзины">
         <img class="header__icon header__icon--user" src="assets/icons/User--avatar.png" alt="Иконка пользователя">
     </section>
+    <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню" aria-expanded="false">
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+    </button>
     <section class="header__nav-bar">
         <nav class="nav">
             <a class="nav__link" href="#PlantPots">Plan pots</a>
@@ -27,6 +32,26 @@
             <a class="nav__link" href="#Cultery">Cultery</a>
         </nav>
     </section>
+
+
+    <div class="mobile-menu" id="mobileMenu">
+        <nav class="mobile-nav">
+            <a class="mobile-nav__link" href="#PlantPots">Plan pots</a>
+            <a class="mobile-nav__link" href="#Ceramics">Ceramics</a>
+            <a class="mobile-nav__link" href="#Tables">Tables</a>
+            <a class="mobile-nav__link" href="#Chairs">Chairs</a>
+            <a class="mobile-nav__link" href="#Crockery">Crockery</a>
+            <a class="mobile-nav__link" href="#Tableware">Tableware</a>
+            <a class="mobile-nav__link" href="#Cultery">Cultery</a>
+        </nav>
+        
+        <div class="mobile-menu__icons">
+            <img class="mobile-menu__icon" src="assets/icons/Shopping--cart.png" alt="Корзина">
+            <img class="mobile-menu__icon" src="assets/icons/User--avatar.png" alt="Профиль">
+        </div>
+    </div>
+
+    <div class="menu-overlay" id="menuOverlay"></div>
 </header>
 
 <main>
@@ -192,5 +217,7 @@
         </div>
     </section>
 </footer>
+<button class="scroll-top" id="scrollTop" aria-label="Наверх"></button>
+<script src="scripts/menu.js"></script>
 </body>
 </html>
